@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: blueviolet;
+background-image: url(../pattern3.png);
+}
+h1{
+   color: purple; 
+}
+@media only screen and (min-width: 480px){
+    body{
+        background-color: aqua;
+        background-image: url(../pattern2.png);
+    }
+    h1{
+        color: cyan;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-color: aqua;
+        background-image: url(../pattern3.png);
+    }
+    h1{
+        color: rgb(212, 0, 255);
+    }
+}

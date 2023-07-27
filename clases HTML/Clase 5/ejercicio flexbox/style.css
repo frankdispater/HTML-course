@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+nav{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: orange;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 70px;
+    padding: 5px;
+    margin: auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    padding: 10px;
+}
+nav ul a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 0.7rem;
+}
+nav li a:hover{
+    background-color: black;
+    color: orange;
+    border-radius: 20px;
+}

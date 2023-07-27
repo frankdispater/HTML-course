@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    background-color: black;
+    width: 600px;
+    height: 400px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row; /*tambien con reverse */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.caja{
+    width: 150px;
+    height: 100px;
+    margin: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+.azul{
+    background-color: blue;
+    align-self: flex-start;
+}
+.verde{
+    background-color: green;
+    order: -1;
+}
+.rojo{
+    background-color: red;
+    order: -2;
+}
+.amarillo{
+    background-color: yellow;
+    align-self: flex-end;
+}
+.fucsia{
+    background-color: fuchsia;
+}
+.gris{
+    background-color: gray;
+}

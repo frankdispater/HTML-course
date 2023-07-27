@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: Roboto-Black;
+    src: url(/font/Roboto-Black.ttf);
+}
+body{
+    background-color: #959797;
+    background-image: url(../img/moroccan-flower-dark.webp);
+    background-repeat: repeat-y repeat-x;
+    background-size: cover;
+    font-family: "Ubuntu";
+
+}
+h1,h2,h3{
+font-family:'Courgette', cursive;
+}
+header{
+    color:#14a5b8
+}
+h1{
+    color: #38d39fa4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h2{
+    color: rgb(22, 51, 145)
+}
+.rojo{
+    color: purple; 
+    font-style: italic;
+    line-height: 1.5;
+    background: url(../img/perfil.jpg);
+}
+.centrado{
+    text-align: center;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none
+}
+.parrafo2{
+    font-weight: bold; 
+    color: antiquewhite;
+}
+a{color: green;text-decoration: none;
+}
+.naranja{color: orange;
+}
+footer{
+    background-color: #14a5b8;
+
+}
+
+.caja{
+width: 300px;
+height: 300px;
+margin: 2rem;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    z-index: 2;
+    
+}
+.blue{
+    background-color: blue;
+    z-index: 1;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+.yellow{
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+    left: 40px;
+}
+.green{
+    background-color: green;
+}

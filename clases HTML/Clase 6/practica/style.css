@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+}
+.padre{
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "HEADER HEADER HEADER HEADER" 
+    "MAIN MAIN EMPTY ASIDE"
+    "FOOTER FOOTER FOOTER FOOTER";
+}
+.hijo{
+    background-color: blue;
+    font-size: 2rem;
+}
+.header{
+    align-self: center;
+    height: 100%;
+    color: white;
+    grid-area: HEADER;
+    background-color: blue;
+}
+.main{
+    color: white;
+    grid-area: MAIN;
+    background-color: yellow;
+}
+.empty{
+    color: white;
+    grid-area: EMPTY;
+    background-color: rgb(110, 110, 110);
+}
+.aside{
+    color: white;
+    grid-area: ASIDE;
+    background-color: red;
+    
+}
+.footer{
+    color: white;
+    grid-area: FOOTER;
+    background-color: green;
+}

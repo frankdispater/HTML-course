@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://s.hdnux.com/photos/64/54/60/13814828/4/rawImage.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.contacto{
+  background-color: black;
+    background-image: url(https://i.ytimg.com/vi/CBcDWjbOfHs/maxresdefault.jpg);
+      height: 100%;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    .pelicula{
+      background-image: url(https://myfilmviews.files.wordpress.com/2011/08/manyfacesofsamuelljackson.jpg);
+      background-size: cover;
+    }
+/* header{
+    color: white;
+    position:relative; left:150px; top:250px;
+    text-size-adjust: 10px;
+} */
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    /* position: fixed; bottom: 0; text-align: center; margin-left: auto; margin-right: auto; */
+}
+.inicios{
+    color: white;
+    position:relative; left:150px; top:250px;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative; top: 0px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.topnav-right {
+  float: right;
+}
+
+.contactos h4, h2{
+  font-size: larger;
+	padding: 10px 40px;
+  color: white;
+}
+form{
+  font-size: 30px;
+  color: white;
+  position: relative; top: 150px; left: 450px;
+}
+.h22{
+font-size: 50px;
+position: relative; top: 140px; left: 400px;
+}
+input {
+  width: 200px; 
+   height: 40px; 
+   font-size: 16px;
+}
+::placeholder {
+  color: red;
+}
+.caja { 
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 16px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #889ccf; 
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;
+   box-sizing: content-box; 
+   width: 600px;
+   height: 600px;
+   position:relative; top: 140px; left: 40px;
+}

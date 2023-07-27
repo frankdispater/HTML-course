@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(146, 224, 198);
+}
+.formu{
+    width: 500px;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 1rem;
+}
+.boton{
+    background-color: rgb(175, 2, 255);
+    color: white;
+    text-align: center;
+    display: block;
+}

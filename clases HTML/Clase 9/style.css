@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(146, 224, 198);
+}
+.formu{
+    width: 500px;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 1rem;
+}
+.boton{
+    background-color: rgb(175, 2, 255);
+    color: white;
+    text-align: center;
+    display: block;
+}
+.tabla{
+    width: 600px;
+    margin: 0 auto; 
+}
+.colorTabla{
+    background-color: aqua;
+}
+.tarjeta{
+    margin: 0 auto;
+    width: 300px;
+    }
+.colorMenu{
+    background-color: rgb(87, 146, 233);
+}
