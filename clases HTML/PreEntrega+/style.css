@@ -72,10 +72,22 @@ a{
 	padding: 10px 40px;
   color: white;
 }
-form{
+.form{
+  width: 500px;
+  margin: 0 auto;
+  background-color: beige;
+  padding: 1rem;
+}
+/* form{
   font-size: 30px;
   color: white;
   position: relative; top: 150px; left: 450px;
+}  */
+.boton{
+  background-color: rgb(175, 2, 255);
+  color: white;
+  text-align: center;
+  display: block;
 }
 .h22{
 font-size: 50px;
@@ -107,4 +119,46 @@ input {
    width: 600px;
    height: 600px;
    position:relative; top: 140px; left: 40px;
+}
+label {
+  color: #333;
+}
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  }
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+.card{
+margin-left: 10px;
+margin-right: 10px;
+}
+.container{
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+  .container{
+    margin: 0px;
+    padding: 0px;
+    
+    position: relative; top:100px;
+  }
+  .card-body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 105px;
+    }
+  .contacto{
+    background-color: black;
+      background-image: url(https://i.ytimg.com/vi/CBcDWjbOfHs/maxresdefault.jpg);
+      }
 }
